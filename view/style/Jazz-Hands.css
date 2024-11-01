@@ -1,0 +1,103 @@
+/* == Title Text Colors == */
+#wgGlossaryItemList.Jazz-Hands .wgGlossaryItemWrapper .wgGlossaryItemTitle { color: #060608 !important; }
+#wgGlossaryItemList.Jazz-Hands .wgGlossaryItemWrapper .wgGlossaryItemTitle a { color: #060608 !important; }
+#wgGlossaryItemList.Jazz-Hands .wgGlossaryItemWrapper .wgGlossaryItemTitle a:hover { color: #060608 !important; }
+#wgGlossaryItemList.Jazz-Hands .wgGlossaryItemWrapper .wgGlossaryItemTitle a:active { color: #060608 !important; }
+#wgGlossaryItemList.Jazz-Hands .wgGlossaryItemWrapper .wgGlossaryItemTitle a:visited { color: #060608 !important; }
+
+
+
+/* == Definition Text Colors == */
+#wgGlossaryItemList.Jazz-Hands .wgGlossaryItemWrapper .wgGlossaryItemDefinition { color: #FFF100 !important; }
+#wgGlossaryItemList.Jazz-Hands .wgGlossaryItemWrapper .wgGlossaryItemDefinition strong { color:#FFF !important; }
+#wgGlossaryItemList.Jazz-Hands .wgGlossaryItemWrapper .wgGlossaryItemDefinition a { color: #B2152F !important; }
+#wgGlossaryItemList.Jazz-Hands .wgGlossaryItemWrapper .wgGlossaryItemDefinition a:hover { color: #B2152F !important; }
+#wgGlossaryItemList.Jazz-Hands .wgGlossaryItemWrapper .wgGlossaryItemDefinition a:active { color: #B2152F !important; }
+#wgGlossaryItemList.Jazz-Hands .wgGlossaryItemWrapper .wgGlossaryItemDefinition a:visited { color: #B2152F !important; }
+
+
+/* == Title Background Color == */
+#wgGlossaryItemList.Jazz-Hands .wgGlossaryItemWrapper .wgGlossaryItemTitle { 
+	background-color: #FFF100 !important;
+}
+
+/* == Definition Background Color == */
+#wgGlossaryItemList.Jazz-Hands .wgGlossaryItemWrapper .wgGlossaryItemDefinition { 
+	background-color: #1A2533 !important;
+}
+
+
+/* == Title Borders and Corners == */
+#wgGlossaryItemList.Jazz-Hands .wgGlossaryItemWrapper .wgGlossaryItemTitle {
+	-moz-border-radius: 1em 7em 1em 4em !important;
+	border-radius: 1em 7em 1em 4em !important;
+	border:1.5px solid black !important;
+}
+
+/* == Definition Borders and Corners == */
+#wgGlossaryItemList.Jazz-Hands .wgGlossaryItemWrapper .wgGlossaryItemDefinition {
+	-moz-border-radius: 1em 1em 4em 1em !important;
+	border-radius: 1em 1em 4em 1em !important;
+}
+
+
+/* == Title Margins and Paddings == */
+#wgGlossaryItemList.Jazz-Hands .wgGlossaryItemWrapper .wgGlossaryItemTitle { 
+	padding:10px !important;
+	margin-bottom: 5px !important;
+}
+
+/* == Definition Margins and Paddings == */
+#wgGlossaryItemList.Jazz-Hands .wgGlossaryItemWrapper .wgGlossaryItemDefinition {
+	margin-bottom:7px !important;
+	margin-left:17px !important;
+	margin-top:-7px !important;
+	margin-right:3px !important;
+	padding:7px !important;
+	padding-bottom:16px !important;
+}
+
+
+/* == Title Positioning == */
+#wgGlossaryItemList.Jazz-Hands .wgGlossaryItemWrapper .wgGlossaryItemTitle { z-index: 10 !important; position: relative; }
+
+/* == Definition Positioning == */
+#wgGlossaryItemList.Jazz-Hands .wgGlossaryItemWrapper .wgGlossaryItemDefinition { z-index: 11 !important; position: relative; }
+
+/* == Read More Link == */
+#wgGlossaryItemList.Jazz-Hands .wgGlossaryItemWrapper .wgGlossaryItemDefinition a.wgGlossaryItemReadMoreLink {
+	-moz-border-radius: 1em 3em 1em 3em !important;
+	border-radius: 1em 3em 1em 3em !important;
+	background-color: #1A2533 !important;
+	margin-bottom:10px !important;
+	margin-right:4em !important;
+	color:#B2152F !important;
+	padding:1em !important;
+}
+
+/* == General == */
+#wgGlossaryItemList.Jazz-Hands {}
+#wgGlossaryItemList.Jazz-Hands .wgGlossaryItemWrapper {}
+#wgGlossaryItemList.Jazz-Hands .wgGlossaryItemWrapper .wgGlossaryItemTitle { clear:both; }
+
+
+
+/* + and - sign before title if jQuery is enabled */
+#wgGlossaryItemList.Jazz-Hands .wgGlossaryItemTitle:before { content : "(+) "; }
+#wgGlossaryItemList.Jazz-Hands .wgGlossaryItemTitle.active:before { content: "(—) "; }
+
+/* adds a colon to end of title when expanded using jQuery */
+#wgGlossaryItemList.Jazz-Hands .wgGlossaryItemTitle a:after { content:""; }
+#wgGlossaryItemList.Jazz-Hands .wgGlossaryItemTitle.active a:after { content:":"; }
+
+
+/* == Groups == */
+#wgGlossaryItemList.Jazz-Hands .wgGlossaryItemGroup { 
+	margin: 30px 0 !important;
+}
+#wgGlossaryItemList.Jazz-Hands .wgGlossaryItemGroup .wgGlossaryGroupName { 
+	margin: 10px 0;
+	font-size: 120%;
+	line-height: 150%;
+}
+#wgGlossaryItemList.Jazz-Hands .wgGlossaryItemGroupTarget {}

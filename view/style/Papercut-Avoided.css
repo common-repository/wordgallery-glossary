@@ -1,0 +1,102 @@
+/* == Title Text Colors == */
+#wgGlossaryItemList.Papercut-Avoided .wgGlossaryItemWrapper .wgGlossaryItemTitle { color: black !important; }
+#wgGlossaryItemList.Papercut-Avoided .wgGlossaryItemWrapper .wgGlossaryItemTitle a { color: black !important; }
+#wgGlossaryItemList.Papercut-Avoided .wgGlossaryItemWrapper .wgGlossaryItemTitle a:hover { color: black !important; }
+#wgGlossaryItemList.Papercut-Avoided .wgGlossaryItemWrapper .wgGlossaryItemTitle a:active { color: black !important; }
+#wgGlossaryItemList.Papercut-Avoided .wgGlossaryItemWrapper .wgGlossaryItemTitle a:visited { color: black !important; }
+
+
+
+/* == Definition Text Colors == */
+#wgGlossaryItemList.Papercut-Avoided .wgGlossaryItemWrapper .wgGlossaryItemDefinition { color: white !important; }
+#wgGlossaryItemList.Papercut-Avoided .wgGlossaryItemWrapper .wgGlossaryItemDefinition strong { color:gray !important; }
+#wgGlossaryItemList.Papercut-Avoided .wgGlossaryItemWrapper .wgGlossaryItemDefinition a { color: blue !important; }
+#wgGlossaryItemList.Papercut-Avoided .wgGlossaryItemWrapper .wgGlossaryItemDefinition a:hover { color: blue !important; }
+#wgGlossaryItemList.Papercut-Avoided .wgGlossaryItemWrapper .wgGlossaryItemDefinition a:active { color: blue !important; }
+#wgGlossaryItemList.Papercut-Avoided .wgGlossaryItemWrapper .wgGlossaryItemDefinition a:visited { color: blue !important; }
+
+
+/* == Title Background Color == */
+#wgGlossaryItemList.Papercut-Avoided .wgGlossaryItemWrapper .wgGlossaryItemTitle { 
+	background-color: white !important;
+}
+
+/* == Definition Background Color == */
+#wgGlossaryItemList.Papercut-Avoided .wgGlossaryItemWrapper .wgGlossaryItemDefinition { 
+	background-color: black !important;
+}
+
+
+/* == Title Borders and Corners == */
+#wgGlossaryItemList.Papercut-Avoided .wgGlossaryItemWrapper .wgGlossaryItemTitle {
+	-moz-border-radius: 3em 3em 3em 3em !important;
+	border-radius: 3em 3em 3em 3em !important;
+	border:3.5px solid black !important;
+}
+
+/* == Definition Borders and Corners == */
+#wgGlossaryItemList.Papercut-Avoided .wgGlossaryItemWrapper .wgGlossaryItemDefinition {
+	-moz-border-radius: 0 0 3em 1em !important;
+	border-radius: 0 0 3em 1em !important;
+}
+
+
+/* == Title Margins and Paddings == */
+#wgGlossaryItemList.Papercut-Avoided .wgGlossaryItemWrapper .wgGlossaryItemTitle { 
+	padding:10px !important;
+	margin-bottom: 5px !important;
+}
+
+/* == Definition Margins and Paddings == */
+#wgGlossaryItemList.Papercut-Avoided .wgGlossaryItemWrapper .wgGlossaryItemDefinition {
+	margin-bottom:7px !important;
+	margin-left:17px !important;
+	margin-top:-7px !important;
+	margin-right:17px !important;
+	padding:7px !important;
+	padding-bottom:16px !important;
+}
+
+
+/* == Title Positioning == */
+#wgGlossaryItemList.Papercut-Avoided .wgGlossaryItemWrapper .wgGlossaryItemTitle { z-index: 10 !important; position: relative; }
+
+/* == Definition Positioning == */
+#wgGlossaryItemList.Papercut-Avoided .wgGlossaryItemWrapper .wgGlossaryItemDefinition { z-index: 9 !important; position: relative; }
+
+/* == Read More Link == */
+#wgGlossaryItemList.Papercut-Avoided .wgGlossaryItemWrapper .wgGlossaryItemDefinition a.wgGlossaryItemReadMoreLink {
+	-moz-border-radius: 1em 1em 3em 3em !important;
+	border-radius: 1em 1em 3em 3em !important;
+	background-color: black !important;
+	margin-bottom:10px !important;
+	margin-right:4em !important;
+	color:blue !important;
+	padding:1em !important;
+}
+
+/* == General == */
+#wgGlossaryItemList.Papercut-Avoided {}
+#wgGlossaryItemList.Papercut-Avoided .wgGlossaryItemWrapper {}
+#wgGlossaryItemList.Papercut-Avoided .wgGlossaryItemWrapper .wgGlossaryItemTitle { clear:both; }
+
+
+
+/* + and - sign before title if jQuery is enabled */
+#wgGlossaryItemList.Papercut-Avoided .wgGlossaryItemTitle:before { content : "(+) "; }
+#wgGlossaryItemList.Papercut-Avoided .wgGlossaryItemTitle.active:before { content: "(—) "; }
+
+/* adds a colon to end of title when expanded using jQuery */
+#wgGlossaryItemList.Papercut-Avoided .wgGlossaryItemTitle a:after { content:""; }
+#wgGlossaryItemList.Papercut-Avoided .wgGlossaryItemTitle.active a:after { content:":"; }
+
+/* == Groups == */
+#wgGlossaryItemList.Papercut-Avoided .wgGlossaryItemGroup { 
+	margin: 30px 0 !important;
+}
+#wgGlossaryItemList.Papercut-Avoided .wgGlossaryItemGroup .wgGlossaryGroupName { 
+	margin: 10px 0;
+	font-size: 120%;
+	line-height: 150%;
+}
+#wgGlossaryItemList.Papercut-Avoided .wgGlossaryItemGroupTarget {}

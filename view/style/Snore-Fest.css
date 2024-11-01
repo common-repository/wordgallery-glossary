@@ -1,0 +1,81 @@
+/* == Title Text Colors == */
+#wgGlossaryItemList.Snore-Fest .wgGlossaryItemWrapper .wgGlossaryItemTitle {  }
+#wgGlossaryItemList.Snore-Fest .wgGlossaryItemWrapper .wgGlossaryItemTitle a {  }
+#wgGlossaryItemList.Snore-Fest .wgGlossaryItemWrapper .wgGlossaryItemTitle a:hover {  }
+#wgGlossaryItemList.Snore-Fest .wgGlossaryItemWrapper .wgGlossaryItemTitle a:active {  }
+#wgGlossaryItemList.Snore-Fest .wgGlossaryItemWrapper .wgGlossaryItemTitle a:visited {  }
+
+
+
+/* == Definition Text Colors == */
+#wgGlossaryItemList.Snore-Fest .wgGlossaryItemWrapper .wgGlossaryItemDefinition {  }
+#wgGlossaryItemList.Snore-Fest .wgGlossaryItemWrapper .wgGlossaryItemDefinition strong {  }
+#wgGlossaryItemList.Snore-Fest .wgGlossaryItemWrapper .wgGlossaryItemDefinition a {  }
+#wgGlossaryItemList.Snore-Fest .wgGlossaryItemWrapper .wgGlossaryItemDefinition a:hover {  }
+#wgGlossaryItemList.Snore-Fest .wgGlossaryItemWrapper .wgGlossaryItemDefinition a:active {  }
+#wgGlossaryItemList.Snore-Fest .wgGlossaryItemWrapper .wgGlossaryItemDefinition a:visited {  }
+
+
+/* == Title Background Color == */
+#wgGlossaryItemList.Snore-Fest .wgGlossaryItemWrapper .wgGlossaryItemTitle { 
+}
+
+/* == Definition Background Color == */
+#wgGlossaryItemList.Snore-Fest .wgGlossaryItemWrapper .wgGlossaryItemDefinition { 
+}
+
+
+/* == Title Borders and Corners == */
+#wgGlossaryItemList.Snore-Fest .wgGlossaryItemWrapper .wgGlossaryItemTitle {
+}
+
+/* == Definition Borders and Corners == */
+#wgGlossaryItemList.Snore-Fest .wgGlossaryItemWrapper .wgGlossaryItemDefinition {
+}
+
+
+/* == Title Margins and Paddings == */
+#wgGlossaryItemList.Snore-Fest .wgGlossaryItemWrapper .wgGlossaryItemTitle { 
+}
+
+/* == Definition Margins and Paddings == */
+#wgGlossaryItemList.Snore-Fest .wgGlossaryItemWrapper .wgGlossaryItemDefinition {
+}
+
+
+/* == Title Positioning == */
+#wgGlossaryItemList.Snore-Fest .wgGlossaryItemWrapper .wgGlossaryItemTitle { z-index: 10 !important; position: relative; }
+
+/* == Definition Positioning == */
+#wgGlossaryItemList.Snore-Fest .wgGlossaryItemWrapper .wgGlossaryItemDefinition { z-index: 9 !important; position: relative; }
+
+/* == Read More Link == */
+#wgGlossaryItemList.Snore-Fest .wgGlossaryItemWrapper .wgGlossaryItemDefinition a.wgGlossaryItemReadMoreLink {
+}
+
+/* == General == */
+#wgGlossaryItemList.Snore-Fest {}
+#wgGlossaryItemList.Snore-Fest .wgGlossaryItemWrapper {}
+#wgGlossaryItemList.Snore-Fest .wgGlossaryItemWrapper .wgGlossaryItemTitle { clear:both; }
+
+
+
+/* + and - sign before title if jQuery is enabled */
+#wgGlossaryItemList.Snore-Fest .wgGlossaryItemTitle:before { content : "(+) "; }
+#wgGlossaryItemList.Snore-Fest .wgGlossaryItemTitle.active:before { content: "(—) "; }
+
+/* adds a colon to end of title when expanded using jQuery */
+#wgGlossaryItemList.Snore-Fest .wgGlossaryItemTitle a:after { content:""; }
+#wgGlossaryItemList.Snore-Fest .wgGlossaryItemTitle.active a:after { content:":"; }
+
+
+/* == Groups == */
+#wgGlossaryItemList.Snore-Fest .wgGlossaryItemGroup { 
+	margin: 30px 0 !important;
+}
+#wgGlossaryItemList.Snore-Fest .wgGlossaryItemGroup .wgGlossaryGroupName { 
+	margin: 10px 0;
+	font-size: 120%;
+	line-height: 150%;
+}
+#wgGlossaryItemList.Snore-Fest .wgGlossaryItemGroupTarget {}
